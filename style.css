@@ -16,13 +16,38 @@ html,body{
     row-gap: 30px;
 }
 .box1{
-    height:320px;
-    width: 360px;
+    height:300px;
+    width: 300px;
     border: 1px solid white;
-    background: white;
-    border-radius: 15px;
+    background: darkblue;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
 }
 .box1:hover{
-    background: darkblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
     border: 1px solid darkblue;
+}
+#circle:hover{
+    background-color: rgb(191, 127, 255);
+}
+#circle1:hover{
+    background-color: rgb(255, 127, 229);
+}
+#circle2:hover{
+    background-color: rgb(57, 144, 220);
+}
+#circle3:hover{
+    background-color: rgb(12, 103, 73);
+}
+#circle4:hover{
+    background-color: yellow;
+}
+#circle5:hover{
+    background-color: orangered;
 }

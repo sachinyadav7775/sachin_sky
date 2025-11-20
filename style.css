@@ -1,24 +1,26 @@
 * {
     margin: 0%;
     padding: 0%;
-}
-html,body{
+} 
+
+html,body {
     height: 100%;
     width: 100%;
     background-color: rgba(245,30,164,0.5);
     display: flex;
     align-items: center;justify-content: center;
-}
-.box{
+} 
+
+.box {
     display:grid;
     grid-template-columns: repeat(3, 310px);
-    column-gap: 80px;
+    column-gap: 30px;
     row-gap: 30px;
-}
-.box1{
+} 
+
+.box1 {
     height:300px;
     width: 300px;
-    border: 1px solid white;
     background: darkblue;
     display: flex;
     align-items: center;
@@ -26,28 +28,59 @@ html,body{
     font-size: xx-large;
     font-weight: 900;
 }
-.box1:hover{
+
+.box1:hover {
     height: 300px;
     width: 300px;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
-    border: 1px solid darkblue;
 }
-#circle:hover{
+
+#circle:hover {
     background-color: rgb(191, 127, 255);
 }
-#circle1:hover{
+
+#circle1:hover {
     background-color: rgb(255, 127, 229);
 }
-#circle2:hover{
+
+#circle2:hover {
     background-color: rgb(57, 144, 220);
 }
-#circle3:hover{
+
+#circle3:hover {
     background-color: red;
 }
-#circle4:hover{
+
+#circle4:hover {
     background-color: yellow;
 }
-#circle5:hover{
+
+#circle5:hover {
     background-color:rgb(242, 160, 9);
+}
+
+.element {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    font-style: inherit;
+}
+
+.border {
+    margin-left: 145px;
+    background-color: green;
+    border-radius: 8px;
+    height: 60px;
+    width: 700px;
+    border: 1px solid white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border:hover {
+    background-color: yellow;
+    color:navy;
 }

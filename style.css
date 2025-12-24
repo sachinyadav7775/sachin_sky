@@ -8,7 +8,8 @@ html,body {
     width: 100%;
     background-color: rgba(245,30,164,0.5);
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
 } 
 
 .box {
@@ -34,6 +35,8 @@ html,body {
     width: 300px;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    transition: 2s;
+    transform: scale(1.1);
 }
 
 #circle:hover {
@@ -69,7 +72,7 @@ html,body {
 
 .border {
     margin-left: 145px;
-    background-color: green;
+    background-color: darkcyan;
     border-radius: 8px;
     height: 60px;
     width: 700px;
@@ -81,6 +84,7 @@ html,body {
 }
 
 .border:hover {
-    background-color: yellow;
+    transition: 2s;
     color:navy;
+    background-color: rgba(255, 255, 0, 0.797);
 }

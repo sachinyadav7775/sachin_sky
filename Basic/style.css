@@ -1,15 +1,16 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 } 
 
 html,body {
     height: 100%;
     width: 100%;
-    background-color: rgba(245,30,164,0.5);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(245,30,164,0.5);
 } 
 
 .box {
@@ -37,29 +38,30 @@ html,body {
     border-bottom-right-radius: 80px;
     transition: 2s;
     transform: scale(1.1);
+    color: navy;
 }
 
-#circle:hover {
+.circle1:hover {
     background-color: rgb(191, 127, 255);
 }
 
-#circle1:hover {
+.circle2:hover {
     background-color: rgb(255, 127, 229);
 }
 
-#circle2:hover {
+.circle3:hover {
     background-color: rgb(57, 144, 220);
 }
 
-#circle3:hover {
+.circle4:hover {
     background-color: red;
 }
 
-#circle4:hover {
+.circle5:hover {
     background-color: yellow;
 }
 
-#circle5:hover {
+.circle6:hover {
     background-color:rgb(242, 160, 9);
 }
 
